@@ -5,8 +5,11 @@ arXiv: <a href="placeholder">placeholder</a>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-# Header 1
+## Abstract
 
+Streaming accent translation is the task of translating speech between different accents in real-time but keep the speaker's voice identity and prosodic attributes. Previous accent translation approaches are mostly focus on non-streaming translation, which are limited to practical situations, such as live streaming, real-time communication. In this paper, we propose an accent translation system, which translates source accent speech to target accent intermediate bottleneck features (IBFs) and then feeds the IBFs into a TTS decoder for target accent speech synthesis. Then we train a full stream model with teacher guidance from the non-streaming model. Furthermore, the proposed system is able to scale to other audio conversion tasks, such as voice conversion. Experiments show that our proposed streaming system achieves naturalness of , accent accuracy , timbre similarity of on accent translation task, and naturalness of , timbre similarity of on voice conversion task. Both subjective and objective evaluations show our streaming system achieves on parity quality with non-streaming system.
+
+## Audio Samples
 <div class="table-wrapper">
   <table>
   <thead>
