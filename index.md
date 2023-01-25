@@ -3,8 +3,7 @@ layout: default
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
+<audio controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio>
 
 There should be whitespace between paragraphs.
 
