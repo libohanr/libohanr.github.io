@@ -2,6 +2,7 @@
 layout: default
 ---
 arXiv: <a href="placeholder">placeholder</a>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 <audio controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio>
@@ -13,6 +14,62 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+<div class="table-wrapper">
+  <table>
+  <thead>
+  <tr>
+      <th>Source Speech</th>
+      <th>Target Speech</th>
+      <th></th>
+      <th>Conversion Speech</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+      <td style="text-align: center" rowspan="8"><audio controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+      <td style="text-align: center" rowspan="4"><audio controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+      <td style="text-align: center">Baseline</td>
+      <td style="text-align: center"><audio controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+  </tr>
+  <tr>
+      <td style="text-align: center">Proposed</td>
+      <td style="text-align: center"><audio controls="controls"><source src="wav/daily/1/proposed_f.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+      
+  </tr>
+  <tr>
+    <td style="text-align: center">Proposed<font color="#FF0000"> w/o IBFs </font></td>
+    <td style="text-align: center"><audio controls="controls"><source src="wav/daily/1/wo_ibf_f.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+    
+  </tr>
+  <tr>
+    <td style="text-align: center">Proposed<font color="#FF0000"> w/o TG </font> </td>
+    <td style="text-align: center"><audio controls="controls"><source src="wav/daily/1/wo_tg_f.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+    
+  </tr>
+  <tr>
+      <td style="text-align: center" rowspan="4"><audio controls="controls"><source src="wav/target_m.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+      <td style="text-align: center">Baseline</td>
+      <td style="text-align: center"><audio controls="controls"><source src="wav/daily/1/bl_m.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+      
+  </tr>
+<tr>
+    <td style="text-align: center">Proposed</td>
+    <td style="text-align: center"><audio controls="controls"><source src="wav/daily/1/proposed_m.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+    
+</tr>
+<tr>
+  <td style="text-align: center">Proposed <font color="#FF0000">w/o IBFs</font> </td>
+  <td style="text-align: center"><audio controls="controls"><source src="wav/daily/1/wo_ibf_m.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+  
+</tr>
+<tr>
+  <td style="text-align: center">Proposed <font color="#FF0000">w/o TG</font> </td>
+  <td style="text-align: center"><audio controls="controls"><source src="wav/daily/1/wo_tg_m.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+  
+</tr>
+  </tbody>
+  </table></div>
 
 ## Header 2
 
