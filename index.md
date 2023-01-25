@@ -60,6 +60,28 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
     </tbody></table>
 
 
+  <table>
+  <thead>
+  <tr>
+      <th>Source Speech (non-native accent)</th>
+      <th>Target Speech (native enUS accent)</th>
+      <th>Converted Speech (native enUS accent)</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+      <td style="text-align: center" rowspan="1"><audio style="width: 30%;" controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+      <td style="text-align: center" rowspan="1"><audio style="width: 30%;" controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+      <td style="text-align: center" rowspan="1"><audio style="width: 30%;" controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+  </tr>
+  
+  <tr>
+      <td style="text-align: center" rowspan="1"><audio style="width: 30%;" controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+      <td style="text-align: center" rowspan="1"><audio style="width: 30%;" controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+      <td style="text-align: center" rowspan="1"><audio style="width: 30%;" controls="controls"><source src="assets/wav/ref_audio1.wav" autoplay="">Your browser does not support the audio element.</audio></td>
+  </tr>
+    </tbody></table>
+
 <div class="table-wrapper">
   <table>
   <thead>
